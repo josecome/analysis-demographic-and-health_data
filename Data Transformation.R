@@ -7,11 +7,11 @@ library(tidyr)
 dir <- "C:/Users/COME/Downloads/Master Degree/Coding/Analisis/Data Analisis/analytics_demographic_and_health_data/"
 
 # import files
-households <- read.csv(paste0(dir, "data/households.csv"), row.names = FALSE)
-individuals <- read.csv(paste0(dir, "data/individuals.csv"), row.names = FALSE)
-births <- read.csv(paste0(dir, "data/births.csv"), row.names = FALSE)
-deaths <- read.csv(paste0(dir, "data/deaths.csv"), row.names = FALSE)
-migration <- read.csv(paste0(dir, "data/migration.csv"), row.names = FALSE)
+households <- read.csv(paste0(dir, "data/households.csv"))
+individuals <- read.csv(paste0(dir, "data/individuals.csv"))
+births <- read.csv(paste0(dir, "data/births.csv"))
+deaths <- read.csv(paste0(dir, "data/deaths.csv"))
+migration <- read.csv(paste0(dir, "data/migration.csv"))
 
 # Data transformation
 
