@@ -1,6 +1,6 @@
 # By this script, tables are created
 
-dir <- "C:/Users/COME/Downloads/Master Degree/Coding/Analisis/Data Analisis/analytics_demographic_and_health_data/"
+dir <- "path"
 # HouseHolds DataFrame
 id <- seq(1, 6000, by=1)
 admin_1 <- LETTERS[1:1]
