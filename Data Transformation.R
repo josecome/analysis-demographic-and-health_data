@@ -1,5 +1,10 @@
+library(plyr)
+library(dplyr)
+library(gdata)
+library(tidyr)
+
 # Get data in data folder and transform to be used in PowerBI
-dir <- "path"
+dir <- "C:/Users/COME/Downloads/Master Degree/Coding/Analisis/Data Analisis/analytics_demographic_and_health_data/"
 
 # import files
 households <- read.csv(paste0(dir, "data/households.csv"), row.names = FALSE)
