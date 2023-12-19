@@ -7,7 +7,7 @@ Visualization using **PowerBI**
 <img src="dash_main.jpg">
 
 ## Status
-Not yet complete
+Not yet completed!
 
 
 
