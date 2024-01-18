@@ -1,5 +1,11 @@
 # By this script, tables are created
-
+#=============================Tables====================================
+# households
+# individuals
+# births
+# deaths
+# migration
+#=======================================================================
 dir <- "path"
 
 # HouseHolds DataFrame
