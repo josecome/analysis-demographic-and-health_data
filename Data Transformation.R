@@ -5,7 +5,7 @@ library(tidyr)
 library(data.table)
 
 # Get data in data folder and transform to be used in PowerBI
-dir <- "C:/Users/COME/Downloads/Master Degree/Coding/Analisis/Data Analisis/analytics_demographic_and_health_data/"
+dir <- ""
 
 # import files
 households <- read.csv(paste0(dir, "data/households.csv"))
